@@ -17,16 +17,20 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 250px;
+    min-height: 150px;
+    max-height: 250px;
+    
 }
 header h1{
    font-family: var(--fonte2);
    font-size: 7.5em; 
    padding-top: 50px;
 }
+
 header h2{
     font-family: var(--fonte1);
     font-size: 1em;
+    padding-bottom: 10px;
 }
 header a{
     text-decoration: none;
@@ -50,6 +54,7 @@ header a:hover{
     background-attachment: fixed;
     height: 800px;
     padding-top: 20px;
+    position: relative;
 }
 .cordel_img2{
     background-image: url('imagens/background002.jpg');
@@ -57,18 +62,20 @@ header a:hover{
     background-size: cover;
     background-attachment: fixed;
     height: 750px;
-    padding-top: 20px;
+    position: relative;
+    
 }
 .cordel_imgd{
     margin-left: 30px;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    top: 50%;
     font-family: var(--fonte3);
     font-size: 3em;
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
-    width: 580px;
+    max-width: 580px;
     padding: 10px;
+    position: absolute;
+    transform: translate(-0%, -50%);
 }
 footer{
     background-color: black;
@@ -84,4 +91,22 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+@media (max-width: 900px){
+    header h1{
+        padding-top: 10px;
+        font-size: 4.5em;
+    }
+    .cordel_imgd{
+        margin-left: 15px;
+        font-size: 1.8em;
+        max-width: 350px;
+        padding: 10px;
+    }
+    .cordel{
+        font-size: 1.8em;
+    }
+    footer{
+        font-size: 1em;
+    }
 }
