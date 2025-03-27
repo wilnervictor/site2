@@ -49,7 +49,7 @@ header a:hover{
 }
 .cordel_img{
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 800px;
@@ -57,7 +57,7 @@ header a:hover{
 }
 .cordel_img2{
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 750px;
