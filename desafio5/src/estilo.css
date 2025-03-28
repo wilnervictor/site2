@@ -42,7 +42,7 @@ header a:hover{
 }
 .cordel{
     margin-left: 30px;
-    margin-top: 60px;
+    padding-top: 10vh;
     margin-bottom: 80px;
     font-family: var(--fonte3);
     font-size: 3em;
